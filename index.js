@@ -1,28 +1,22 @@
-var headings = [
-	"Hogere cijfers. Makkelijker.",
-	"Educatie met meer swag.",
-	"All-in-one schoolhulpmiddel.",
-	"Super hip.",
-	"Betere resultaten. Gratis."
-];
-
 function loaded () {
+	window.ondragstart = function(){return false;} 
+
 	var button = document.getElementById("signupButton");
 	var sendButton = document.getElementById("sendButton");
 	var email = document.getElementById("email");
-	var heading = document.getElementsByTagName("h1")[0];
+	var heading = document.getElementById("header");
 	sendButton.style.visibility = "hidden";
 
 	function send(){
 		email.setAttribute("disabled", "yes");
 		email.value = "k.";
-		button.className = "done";
+		button.className = "done btn-sH";
 		sendButton.style.visibility = "hidden";
 	}
 
 	button.onclick = function (event) {
 		if (button.className !== "done") {
-			button.className = "active";
+			button.className = "active btn-sH";
 			sendButton.style.visibility = "visible";
 			email.focus();
 		}
@@ -41,15 +35,8 @@ function loaded () {
 	email.onblur = window.onblur = function (event) {
 		if (email.value.trim().length === 0) {
 			email.value = "";
-			button.className = "";
+			button.className = "btn-sH";
 			sendButton.style.visibility = "hidden";
 		}
 	}
-
-	function changeHeading(){
-
-	}
-
-	var current;
-	heading.innerHTML = current = headings[~~(Math.random() * headings.length)];
 }
