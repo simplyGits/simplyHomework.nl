@@ -110,7 +110,10 @@
 				</div>
 			</div>
 			<br><br>
-			<div class="center" id="footer"><a href="contact.html">Contact</a> - <a href="privacy.html" target="_blank">Privacy</a> - <a href="press.html" target="_blank">Pers</a></div>
+			<div class="center" id="footer">
+				&copy; <span id="year"></span> <a href="http://simplyapps.nl/" target="_blank">simplyApps</a><br>
+				<a href="contact.html">Contact</a> - <a href="privacy.html" target="_blank">Privacy</a> - <a href="press.html" target="_blank">Pers</a>
+			</div>
 			<br>
 		</div>
 	</body>
@@ -126,5 +129,10 @@
         		window.location.hash = "page1";
         	});
         });
+	$(document).ready(function(){
+		var d = new Date();
+		var y = d.getFullYear();
+		$("#year").html(y)
+	})
 	</script>
 </html>
