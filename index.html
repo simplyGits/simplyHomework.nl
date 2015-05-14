@@ -49,12 +49,11 @@
 			<div id="overlay">
 			</div>
 		</div>
-		<div id="content">
+		<div id="content" class="height100">
 			<div id="top">
 				<div class="appNameHeader"></div>
 				<div id="tabs">
 					<a href="index.html" class="tab active double">Home</a>
-					<a href="functies.html" class="tab">Functies</a>
 					<a href="prijzen.html" class="tab">Prijzen</a>
 					<a href="scholen.html" class="tab">Scholen</a>
 					<a href="contact.html" class="tab">Contact</a>
@@ -74,11 +73,56 @@
 							<span>Verzenden!</span>
 						</div>
 					</div>
+					<a id="info" class="point"><h3>Meer info<br><span class="fa fa-angle-down"></span></h3></a>
 				</div>
 			</div>
+		</div>
+		<div id="page1">
+			<div id="brands">
+				<h2>Onze partners:</h2><br>
+				<a href="http://www.scholieren.com/?utm_source=simplyhomework.nl" target="_blank"><img src="img/logo/scholieren.png"/></a>
+				<a href="http://norbertuscollege.nl" target="_blank"><img src="img/logo/norbertus.png"/></a>
+			</div><br>
+			<div class="cards">
+				<div class="card">
+					<img src="icons/magister.png"/>
+					<h2>Magister</h2>
+					<p>simplyHomework werkt perfect in combinatie met Magister. Heeft jouw school Magister? Dan kun je meteen beginnen.</p>
+					<p>Hadden we al verteld dat het gratis was?</p>
+				</div>
+				<div class="card">
+					<img src="icons/plannen.png"/>
+					<h2>Plannen</h2>
+					<p>Nooit meer je huiswerk "vergeten" en toch tijd overhouden voor andere dingen?</p>
+					<p>simplyHomework plant je huiswerk automatisch in op dagen dat je er ook echt tijd voor hebt.</p>
+				</div>
+				<div class="card">
+					<img src="icons/chat.png"/>
+					<h2>Chatten</h2>
+					<p>Samen aan een project werken? Je kunt in simplyHomework tegelijk aan een document werken en er bij chatten. Je kunt het vervolgens meteen inleveren bij je leraar.</p>
+					<p>Heb je een vraag? Chat meteen live met een van de vele vakdocenten.</p>
+				</div>
+				<div class="card">
+					<img src="icons/informatie.png"/>
+					<h2>Informatie</h2>
+					<p>Moet je een werkstuk maken? Snap je de theorie niet?</p>
+					<p>Met simplyHomework kun je informatie opzoeken uit betrouwbare bronnen, samengebracht in één overzichtelijke plaats.</p>
+				</div>
+			</div>
+			<br>
 		</div>
 	</body>
 	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/html5shiv.js"></script>
+
+	<script>
+	$("#info").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#page1").offset().top
+        	}, 1000, null, function(){
+        		window.location.hash = "page1";
+        	});
+        });
+	</script>
 </html>
