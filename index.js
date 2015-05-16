@@ -40,7 +40,7 @@ function loaded () {
 		}
 	}
 
-	var id = ~~(Math.random() * 6);
+	var id = ~~(Math.random() * 5);
 	$("#back").css({
 		backgroundImage: "url('img/backs/back" + id + ".jpg')"
 	});
