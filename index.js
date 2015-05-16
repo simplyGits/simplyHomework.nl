@@ -39,4 +39,9 @@ function loaded () {
 			sendButton.style.visibility = "hidden";
 		}
 	}
+
+	var id = ~~(Math.random() * 6);
+	$("#back").css({
+		backgroundImage: "url('img/backs/back" + id + ".jpg')"
+	});
 }
