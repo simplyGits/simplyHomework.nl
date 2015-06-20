@@ -12,6 +12,10 @@ body, html {
 }
 
 h3{
+.no-smoothing, #text {
+	-webkit-font-smoothing: auto;
+	-moz-osx-font-smoothing: auto;
+}
 	color: white;
 }
 
