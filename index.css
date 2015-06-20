@@ -11,29 +11,30 @@ body, html {
 	font-family: 'Roboto', sans-serif;
 }
 
-h3{
 .no-smoothing, #text {
 	-webkit-font-smoothing: auto;
 	-moz-osx-font-smoothing: auto;
 }
+
+h3 {
 	color: white;
 }
 
-#footer, #footer a{
+#footer, #footer a {
 	color: white;
 }
-#terms{
+#terms {
 	padding: 15px;
 }
-#terms h3{
+#terms h3 {
 	color: black !important;
 }
 
-.point{
+.point {
 	cursor: pointer;
 }
 
-#brands{
+#brands {
 	background-color: rgba(255, 255, 255, 0.9);
 	min-width: 100%;
 	width: 100%;
@@ -41,51 +42,51 @@ h3{
 	padding: 15px;
 
 	-webkit-box-shadow: 0px 10px 42px -13px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 10px 42px -13px rgba(0,0,0,0.75);
-box-shadow: 0px 10px 42px -13px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 42px -13px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 42px -13px rgba(0,0,0,0.75);
 }
-#brands img{
+#brands img {
 	 max-height: 70px;
 	 margin-left: 7px;
 	 margin-right: 7px;
 }
 
-#page1{
+#page1 {
 	/*background-color: rgba(255, 255, 255, 0.9);*/
 	min-width: 100%;
 	width: 100%;
 	min-height: 100px;
 }
 
-#content{
+#content {
 	min-height: 100vh !important;
 }
 
-#logo{
+#logo {
 	max-width: 75%;
 	width: 200px;
 }
 
-#container{
+#container {
 	max-width: 90%;
 	text-align: center;
 	width: 500px;
 	margin: 0 auto;
 }
 
-.center{
+.center {
 	width: 100%;
 	text-align: center;
 }
 
-#tabs{
+#tabs {
 	float: right;
 	right: 10px;
 	top: 10px;
 	z-index: 2;
 }
 
-.tab{
+.tab {
 	float: left;
 	text-align: center;
 	line-height: 40px;
@@ -102,7 +103,7 @@ box-shadow: 0px 10px 42px -13px rgba(0,0,0,0.75);
 	opacity: .6;
 }
 
-.tab:hover, .tab.active{
+.tab:hover, .tab.active {
 	text-decoration: none;
 	color: white;
 	opacity: 1;
@@ -111,13 +112,13 @@ box-shadow: 0px 10px 42px -13px rgba(0,0,0,0.75);
 	   -webkit-transition: opacity .2s ease-in-out;
 }
 
-.title{
+.title {
 	color: white;
 	font-weight: 300;
 	font-size: 40px;
 }
 
-.appNameHeader{
+.appNameHeader {
     color: #FFF;
     font-size: 2em;
     margin-left: 10px;
@@ -136,11 +137,11 @@ box-shadow: 0px 10px 42px -13px rgba(0,0,0,0.75);
     margin-left: 3px;
 }
 
-#background{
+#background {
 	z-index: -1;
 }
 
-#back{
+#back {
 	background-image: url('img/backs/back0.jpg');
 	background-size: cover;
 	background-position: center;
@@ -165,7 +166,7 @@ box-shadow: 0px 10px 42px -13px rgba(0,0,0,0.75);
 	z-index: -1;
 }
 
-#email{
+#email {
 	height: 100%;
 	width: calc(100% - 10px);
 
@@ -182,50 +183,50 @@ box-shadow: 0px 10px 42px -13px rgba(0,0,0,0.75);
 	padding-right: 5px;
 }
 
-#form{
+#form {
 	max-width: 80%;
 	width: 200px;
 	text-align: center;
 }
 
 /* Beetje responsiveness */
-@media all and (min-width: 780px){
-	#tabs{
+@media all and (min-width: 780px) {
+	#tabs {
 		position: absolute !important;
 		top: 5px !important;
 		right: 10px !important;
 	}
 }
-@media all and (max-width: 530px){
-	#tabs{
+@media all and (max-width: 530px) {
+	#tabs {
 		width: 80% !important;
 		margin-left: 20% !important;
 		margin-right: 10% !important;
 	}
-	#tabs a:not(.double){
+	#tabs a:not(.double) {
 		width: 45% !important;
 		margin-right: 5% !important;
 	}
-	#tabs a.double{
+	#tabs a.double {
 		width: 95% !important;
 	}
-	#top{
+	#top {
 		position: relative !important;
 		bottom: 5px !important;
 	}
-	.card{
+	.card {
 		width: 80% !important;
 		margin-left: 10% !important;
 		margin-bottom: 30px !important;
 	}
-	#goButton{
+	#goButton {
 		width: 75% !important;
 		margin-left: 12.5% !important;
 	}
 }
 
-@media all and (max-width: 900px) and (min-width: 530px){
-	.card{
+@media all and (max-width: 900px) and (min-width: 530px) {
+	.card {
 		width: 40% !important;
 		margin-left: 5% !important;
 		margin-bottom: 30px !important;
@@ -238,13 +239,13 @@ box-shadow: 0px 10px 42px -13px rgba(0,0,0,0.75);
 .btn-sH.active > span {
 	display: none;
 }
-.btn-sH:hover span{
+.btn-sH:hover span {
 	text-decoration: none;
 }
-a:hover{
+a:hover {
 	text-decoration: none;
 }
-.btn-sH{
+.btn-sH {
 	height: 40px;
 	width: 100%;
 	margin-top: 15px;
@@ -260,16 +261,16 @@ a:hover{
 	transition: .2s background-color linear;
 }
 
-.btn-sH span a, .btn-sH span a:hover, .btn-sH span a.active{
+.btn-sH span a, .btn-sH span a:hover, .btn-sH span a.active {
 	text-decoration: none;
 	color: white;
 }
 
-/*.btn-sH:not(.active):not(.done):hover, #tab:hover{
+/*.btn-sH:not(.active):not(.done):hover, #tab:hover {
 	background-color: rgba(100, 100, 100, .1);
 }*/
 
-.btn-sH.active, #tab.active{
+.btn-sH.active, #tab.active {
 	cursor: normal;
 	background-color: rgba(0, 0, 0, .1);
 }
@@ -311,18 +312,18 @@ a:hover{
 ::-webkit-scrollbar-thumb {
    background-color: rgba(255,255,255,.6);
 }
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
 	background-color: rgba(255,255,255,.8);
 }
 
 /* Page CSS */
-#info{
+#info {
 	width: 100%;
 }
-.cards{
+.cards {
 	width: 100%;
 }
-.card{
+.card {
 	display: inline-block;
 	width: 20%;
 	min-height: 20px;
@@ -335,15 +336,15 @@ a:hover{
 -moz-box-shadow: 0px 10px 42px -13px rgba(0,0,0,0.75);
 box-shadow: 0px 10px 42px -13px rgba(0,0,0,0.75);
 }
-.card img{
+.card img {
 	margin-left: 30%;
 	width: 40%;
 }
-#goButton{
+#goButton {
 	width: 30%;
 	margin-left: 35%;
 }
-#text{
+#text {
 	width: 75%;
 	min-height: 20px;
 	margin-left: 12.5%;
