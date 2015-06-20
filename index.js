@@ -40,8 +40,9 @@ function loaded () {
 		}
 	}
 
-	var id = ~~(Math.random() * 4);
-	$("#back").css({
-		backgroundImage: "url('img/backs/back" + id + ".jpg')"
-	});
+	/* Disabled this for now */
+	// var id = ~~(Math.random() * 4);
+	// $("#back").css({
+	// 	backgroundImage: "url('img/backs/back" + id + ".jpg')"
+	// });
 }
