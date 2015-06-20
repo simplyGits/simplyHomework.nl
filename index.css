@@ -255,7 +255,7 @@ a:hover{
 
 	color: white;
 	border: 1px white solid;
-	cursor: pointer;
+	/*cursor: pointer;*/
 
 	transition: .2s background-color linear;
 }
@@ -265,9 +265,9 @@ a:hover{
 	color: white;
 }
 
-.btn-sH:not(.active):not(.done):hover, #tab:hover{
+/*.btn-sH:not(.active):not(.done):hover, #tab:hover{
 	background-color: rgba(100, 100, 100, .1);
-}
+}*/
 
 .btn-sH.active, #tab.active{
 	cursor: normal;
