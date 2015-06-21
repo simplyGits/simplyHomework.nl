@@ -113,21 +113,19 @@
 		</div>
 	</body>
 	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/html5shiv.js"></script>
 
 	<script>
-	$("#info").click(function (){
-        $('html, body').animate({
-            scrollTop: $("#page1").offset().top
-        	}, 1000, null, function(){
-        		window.location.hash = "page1";
-        	});
-        });
-	$(document).ready(function(){
-		var d = new Date();
-		var y = d.getFullYear();
-		$("#year").html(y)
-	})
+		$(document).ready(function () {
+			$("#info").click(function () {
+				$("body").animate({
+					scrollTop: $("#page1").offset().top
+				}, 1000, null, function () {
+					window.location.hash = "page1"
+				})
+			})
+
+			$("#year").text(new Date().getFullYear());
+		})
 	</script>
 </html>
