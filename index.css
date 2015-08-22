@@ -82,8 +82,11 @@ h3 {
 	min-height: 100px;
 }
 
-#content {
-	min-height: 100vh !important;
+body:not(#homepage) #content{
+	min-height: 0;
+}
+#homepage #content{
+	min-height: 100vh;
 }
 
 #logo {
