@@ -214,6 +214,7 @@ body:not(#homepage) #content{
 	max-width: 80%;
 	width: 200px;
 	text-align: center;
+	display: block;
 }
 
 /* Beetje responsiveness */
