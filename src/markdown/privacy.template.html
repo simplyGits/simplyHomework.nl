@@ -15,17 +15,19 @@
 	<style type="text/css">
 		body {
 			font-family: sans-serif;
+			max-width: 1200px;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		h1 {
 			text-align: center;
-			padding-bottom: 10px;
-			border-bottom: 1px #d3d3d3 solid;
+			margin-bottom: .3em;
 		}
 
-		div {
-			padding: 50px;
-			padding-top: 0 !important;
+		div#content {
+			border: 1px lightgray solid;
+			padding: 15px;
 		}
 
 		@media only screen and (max-width: 760px) {
@@ -37,6 +39,8 @@
 </head>
 <body>
 	<h1>Privacybeleid simplyApps</h1>
-	<%= content %>
+	<div id="content">
+		<%= content %>
+	</div>
 </body>
 </html>
