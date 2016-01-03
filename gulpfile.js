@@ -20,10 +20,9 @@ gulp.task('markdown', function () {
 	return gulp.src(paths.markdown)
 		.pipe(markdown())
 		.pipe(through.obj(function (file, enc, cb) {
-			// TODO: support markdown files without an template.html.
 			fs.readFile(gutil.replaceExtension(file.path, '.template.html'), 'utf-8', function (e, r) {
 				if (e) {
-					cb(e);
+					cb(null, file);
 				} else {
 					file.contents = new Buffer(r.replace('<%= content %>', file.contents.toString('utf-8')));
 					file.path = gutil.replaceExtension(file.path, '.html');
