@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    
+    background-color: #32A8CE;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 300;
+}
+.nameHeader {
+    opacity: 0.6;
+    padding-left: 15px;
+    margin-top: 5px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.center {
+    width: 100%;
+    text-align: center;
+}
+.thin {
+    font-weight: 100;
+}
+
+.page {
+    padding-bottom: 30px;
+}
+.content {
+    min-height: 80vh;
+}
+.footer {
+    min-height: 10vh;
+    border-top: 1px solid lightgray;
+}
+
+
+/* Nice-ish stylings */
+.btn {
+    font-weight: 500;
+    text-decoration: none;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.btn-white {
+    border: 1px solid white;
+    color: white;
+}
+.btn-blue {
+    border: 1px solid #32A8CE;
+    color: #32A8CE;
+    background-color: white;
+}
+.btn-shadow {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.6), 0 1px 2px;
+    text-shadow: 0 2px 3px rgba(0,0,0,0.8), 0 1px 2px;
+}
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: white; /* old IE */
+    background-color: white; /* Modern Browsers */
+    opacity: 0.6;
+}
