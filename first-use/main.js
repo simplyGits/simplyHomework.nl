@@ -6,33 +6,33 @@ $(document).ready(function(){
 	if(location.hash.length > 1){
 		var hash = window.location.hash.substring(1);
 		$(".firstName").html(" "+hash);
-		
+
 		$("#rightBtn").attr("href", "#"+hash);
 	}else{
 		/* TODO: REDIRECT BACK TO HOMEPAGE OR SHOW ERROR */
 	}
-	
+
 	$(".fit").fitText();
-	
+
 	if(mobilecheck()){
 		$("#desktopTip").remove();
 	}else{
 		$("#mobileTip").remove();
 	}
-	
+
 	owl = $(".firstuse");
 
 	owl.owlCarousel({
 		items:1
 	});
-	
+
 	owl.on("changed.owl.carousel", function(event) {
 		setTimeout(function() {
 			if(event.page.index == 0){ //First page
 				$("#leftBtn").html("Overslaan");
 				$("#leftBtn").attr("onclick", "");
 				$("#leftBtn").attr("href", app_location)
-				
+
 				$("#rightBtn").html("Volgende");
 				$("#rightBtn").attr("onclick", "next()");
 				$("#rightBtn").attr("href", "#"+hash);
@@ -40,7 +40,7 @@ $(document).ready(function(){
 				$("#leftBtn").html("Vorige");
 				$("#leftBtn").attr("onclick", "prev()");
 				$("#leftBtn").attr("href", "#"+hash);
-				
+
 				$("#rightBtn").html("Voltooien");
 				$("#rightBtn").attr("onclick", "");
 				$("#rightBtn").attr("href", app_location);
@@ -48,7 +48,7 @@ $(document).ready(function(){
 				$("#leftBtn").html("Vorige");
 				$("#leftBtn").attr("onclick", "prev()");
 				$("#leftBtn").attr("href", "#"+hash);
-				
+
 				$("#rightBtn").html("Volgende");
 				$("#rightBtn").attr("onclick", "next()");
 				$("#rightBtn").attr("href", "#"+hash);
