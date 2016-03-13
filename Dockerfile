@@ -1,3 +1,4 @@
-FROM kyma/docker-nginx
-COPY . /var/www
-CMD 'nginx'
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/nginx.conf
+CMD nginx
