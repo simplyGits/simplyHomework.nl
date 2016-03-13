@@ -50,6 +50,11 @@ $(function(){
 
 		backDelay: 1000,
 	});
+
+	var loggedIn = getCookies().loggedIn;
+	if (loggedIn === '1') {
+		document.location.href = 'https://app.simplyhomework.nl/';
+	}
 });
 
 function mobilecheck() {
@@ -72,3 +77,12 @@ $(function() {
 		}
 	});
 });
+
+function getCookies () {
+	var res = {};
+	document.cookie.split(/[\s;]+/g).forEach(function (cookie) {
+		var splitted = cookie.split('=');
+		res[splitted[0]] = splitted[1];
+	});
+	return res;
+}
