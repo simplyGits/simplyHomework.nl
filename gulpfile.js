@@ -6,14 +6,14 @@ var fs = require('fs');
 var gutil = require('gulp-util');
 
 var paths = {
-	images: 'images/**/*',
+	images: 'src/images/**/*',
 	markdown: 'src/markdown/*.md',
 };
 
 gulp.task('images', function() {
 	return gulp.src(paths.images)
 		.pipe(imagemin({ optimizationLevel: 5 }))
-		.pipe(gulp.dest('img'));
+		.pipe(gulp.dest('static/images'));
 });
 
 gulp.task('markdown', function () {
