@@ -313,8 +313,3 @@ hr {
         display: block !important;
     }
 }
-@media (max-width: 400px) {
-    #searchBar img {
-        left: 50px;
-    }
-}
