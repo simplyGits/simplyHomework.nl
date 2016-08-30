@@ -1,7 +1,6 @@
-*Versie 0.2*
+*Versie 0.2.1*
 
-Deze pagina is voor het laatst aangepast op 6-2-2015 *(zesde februari
-tweeduizendvijftien)*.
+Deze pagina is voor het laatst aangepast op 30-8-2016.
 
 Definities:
 
@@ -38,7 +37,7 @@ goede komt.
 Wanneer u e-mail of andere berichten naar ons verzendt, is het mogelijk dat we
 die berichten bewaren. Soms vragen wij u naar uw persoonlijke gegevens die voor
 de desbetreffende situatie relevant zijn. Dit maakt het mogelijk uw vragen te
-verwerken en uw verzoeken te beantwoorden. De gegevens worden opgeslagen op
+beantwoorden en uw verzoeken te verwerken. De gegevens worden opgeslagen op
 eigen beveiligde servers van simplyApps of die van een derde partij. Wij zullen
 deze gegevens niet combineren met andere persoonlijke gegevens waarover wij
 beschikken, tenzij u ons daar expliciet toestemming tot geeft.
@@ -49,14 +48,14 @@ onze klanten, zodat wij onze diensten hierop kunnen afstemmen.
 
 Deze website maakt gebruik van "cookies" (tekstbestandtjes die op uw computer
 worden geplaatst) om de website te helpen analyseren hoe gebruikers de site
-gebruiken. De door het cookie gegenereerde informatie over uw gebruik van de
-website kan worden overgebracht naar eigen beveiligde servers van simplyApps of
-die van een derde partij. Wij gebruiken deze informatie om bij te houden hoe u
-de website gebruikt, om rapporten over de website-activiteit op te stellen en
-andere diensten aan te bieden met betrekking tot website-activiteit en
-internetgebruik. Wij maken tevens gebruik van Google Analytics, wij zijn niet
-verantwoordelijk voor de behandeling van uw gegevens door deze of andere derde
-partij(en). Voor het cookiebeleid van Google kijkt u hier:
+gebruiken. De in de cookie opgeslagen informatie over uw gebruik van de website
+kan worden overgebracht naar eigen beveiligde servers van simplyApps of die van
+een derde partij. Wij gebruiken deze informatie om bij te houden hoe de website
+gebruikt wordt, om rapporten over de website-activiteit op te stellen en andere
+diensten aan te bieden met betrekking tot website-activiteit en internetgebruik.
+Wij maken tevens gebruik van Google Analytics, wij zijn niet verantwoordelijk
+voor de behandeling van uw gegevens door deze of andere derde partij(en). Voor
+het cookiebeleid van Google kijkt u hier:
 [https://www.google.com/policies/technologies/cookies/](https://www.google.com/policies/technologies/cookies/)
 
 ## Doeleinden
@@ -65,7 +64,7 @@ doeleinden die worden beschreven in dit privacybeleid tenzij we van tevoren uw
 toestemming hiervoor hebben verkregen.
 
 ## Derden
-De informatie wordt niet met derden gedeeld. In enkele gevallen kan de
+Uw informatie wordt niet met derden gedeeld. In enkele gevallen kan de
 informatie intern gedeeld worden. Onze werknemers zijn verplicht om de
 vertrouwelijkheid van uw gegevens te respecteren.
 
@@ -79,7 +78,7 @@ achteraf.
 
 ## Keuzes voor persoonsgegevens
 Wij bieden alle bezoekers de mogelijkheid tot het inzien, veranderen, of
-verwijderen van alle persoonlijke informatie die op het moment aan ons is
+verwijderen van alle persoonlijke informatie die op dat moment aan ons is
 verstrekt.
 
 ### Aanpassen/uitschrijven dienst nieuwsbrief
