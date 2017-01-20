@@ -1,9 +1,9 @@
-/* global $ */
+/* global $, ga */
 
 var app_location = 'https://app.simplyhomework.nl/';
 var owl;
 
-$(document).ready(function(){
+$(document).ready(function (){
 	// Handle hash for first-name
 	if (location.hash.length > 1) {
 		var hash = window.location.hash.substring(1);
@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 	var $leftBtn = $('#leftBtn');
 	var $rightBtn = $('#rightBtn');
-	owl.on('changed.owl.carousel', function(event) {
+	owl.on('changed.owl.carousel', function (event) {
 		setTimeout(function () {
 			$leftBtn.html('Vorige')
 				.attr('onclick', 'prev()')
@@ -53,15 +53,15 @@ $(document).ready(function(){
 
 });
 
-window.onresize = function() {
+window.onresize = function () {
 	$('.fit').fitText();
 }
 
-function next () {
+function next () { // eslint-disable-line no-unused-vars
 	owl.trigger('next.owl.carousel');
 }
 
-function prev () {
+function prev () { // eslint-disable-line no-unused-vars
 	owl.trigger('prev.owl.carousel');
 }
 
