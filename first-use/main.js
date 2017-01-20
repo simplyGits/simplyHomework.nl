@@ -31,6 +31,8 @@ $(document).ready(function (){
 	var $leftBtn = $('#leftBtn');
 	var $rightBtn = $('#rightBtn');
 	owl.on('changed.owl.carousel', function (event) {
+		ga('send', 'event', 'first-use', 'progress', event.page.index)
+
 		setTimeout(function () {
 			$leftBtn.html('Vorige')
 				.attr('onclick', 'prev()')
