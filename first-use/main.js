@@ -1,6 +1,6 @@
 /* global $, ga */
 
-var app_location = 'https://app.simplyhomework.nl/';
+var app_location = 'https://app.simplyhomework.nl/login';
 var owl;
 
 $(document).ready(function (){
